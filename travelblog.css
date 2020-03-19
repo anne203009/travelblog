@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    background-color: white;
+    position:sticky;
+    width:100%;
+    color:black;
+    height: 40px;
+}
+
+li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.navitems{
+    text-align: right;
+    margin-top: -22px;
+    font-family: 'Segoe UI';
+}
+
+.blogname{
+    text-align: left;
+    margin-left: 25px;
+    font-family: monospace;
+    margin-top:8px;
+} 
+
+.firstimage{
+    background-image:url("imagess/old-1130731_19205.jpg");
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    background-size: cover;   
+}
+
+.cover1{
+    background-color: teal;
+    height: 200px;
+    width: 1349px;
+}
+
+.container1{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 675px 674px;
+    grid-gap:0px;
+}
+
+.box1{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.boxtxt{
+    text-align: center;
+    margin-top:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.box2{
+    background-color: white;
+
+}
+
+button{
+    border: none;
+}
+
+.polariod{
+    bottom: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+.cover2{
+    background-color: white;
+    height: 300px;
+    width: 1349px;
+}
+
+.container2{
+    display: grid;
+    grid-template-rows: 300px;
+    /* grid-template-columns: 675px; */
+    grid-gap:0px;
+}
+
+.secondimage{
+    background-image:url("imagess/vienam-4922442_1920.jpg");
+    background-position: center;
+    height: 300px;
+    width:1349px;
+    background-size: cover;   
+    filter: brightness(60%);
+}
+
+.cover3{
+    background-color: white;
+    width: 1349px;
+    height: 440px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows:328px;
+    grid-gap:4px;
+    justify-content: start;
+}
+
+.iconbox{
+    position: relative;
+    background-color:white;
+    padding-top: 100px;
+    border-style:none;
+    border-radius: 30px;
+    border-color:rgb(white); 
+    height:180px;
+    width:220px;
+    margin:100px 100px 100px 100px;
+    left: 60px;
+    bottom:20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.icon{
+    position: relative;
+    right: 5px;
+    bottom: 60px;
+}
+
+.heading{
+    text-align:justify;
+    font-family: Arial;
+    padding-left: 30px;
+    padding-bottom:12px;
+}
+
+.sub{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cover4{
+    background-color: white;
+    height: 200px;
+    width: 1349px;
+}
+
+.container4{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 500px 700px;
+    grid-gap:0px;
+}
+
+.thirdimage{
+    background-image:url("imagess/restaurant.jpg");
+    height: 490px;
+    width:400px; 
+    filter: brightness(70%);
+    left: 36px;
+    position: absolute;
+    background-size: cover;
+}
+.box4{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+.box5{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.topic{
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial;
+}
+
+.content{
+    text-align: initial;
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 22.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.cover5{
+    background-color: white;
+    height: 100px;
+    width: 1349px;
+}
+
+.container5{
+    display: grid;
+    grid-template-rows: 60px 35px;
+    grid-template-columns: 224px 224px 224px 224px 224px 224px;
+    grid-gap:0px;
+}
+
+.box6{
+    background-color:white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    /* position: absolute; */
+    text-align: center;
+}
+
+.download{
+    padding-top:19px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.apple{
+    background-image:url("imagess/appl.png");
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-size: contain;
+    height: 60px;
+    width: 224px;
+    position: relative;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left: 25px;
+
+}
+
+.android{
+    background-image:url("imagess/googl.png");
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 107px;
+    position: relative;
+    top: 14px;
+    right: 70px;
+}
+
+.box7{
+    background-color:black;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.footer{
+    color:white;
+    font-family: Arial;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 14px;
+    padding-top:10px;
+}
